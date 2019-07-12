@@ -2,6 +2,8 @@
     <Label class="action-bar-title" text="Home"></Label>
 </ActionBar>
 
-<GridLayout class="page">
-    <Button title="">
-</GridLayout>
+<StackLayout class="page">
+    <Button class='btn btn-primary' text="Add Image" (tap)='onAddImage()'>
+   </Button>
+    <Label [text]='receiptText' textWrap='true'></Label>
+</StackLayout>
